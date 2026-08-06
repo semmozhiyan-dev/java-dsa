@@ -8,7 +8,7 @@ class PrintAverage{
         float num2= sc.nextFloat();
         float sum=num1+num2;
         float average=sum/2;
-        System.out.println("The average is:" +average);
-
+        System.out.printf("The average is: %.2f", average);
+        sc.close();
     }
 }
