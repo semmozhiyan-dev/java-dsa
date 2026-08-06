@@ -9,10 +9,13 @@ class Student{
         System.out.println("enter the age: ");
         int age =sc.nextInt();
         System.out.println("enter the department: ");
-        String department =sc.next();
+        String department =sc.nextLine();
+        System.out.println("enter the cgpa: ");
+        float cgpa =sc.nextFloat();
         System.out.println("entered name: "+name);
         System.out.println("entered roll number: "+num);
         System.out.println("entered age: "+age);    
         System.out.println("entered department: "+department);
+        System.out.println("entered cgpa: "+cgpa);
     }
 }
