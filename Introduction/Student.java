@@ -4,14 +4,16 @@ class Student{
         Scanner sc= new Scanner(System.in);
         System.out.println("enter name: " );
         String name =sc.nextLine();
-        System.out.println("enter the roll number: ");
-        int num =sc.nextInt();
+        
         System.out.println("enter the age: ");
         int age =sc.nextInt();
         System.out.println("enter the department: ");
-        String department =sc.nextLine();
+        String department =sc.next();
         System.out.println("enter the cgpa: ");
         float cgpa =sc.nextFloat();
+        System.out.println("enter the register number: ");
+        long num =sc.nextLong();
+        sc.close();
         System.out.println("entered name: "+name);
         System.out.println("entered roll number: "+num);
         System.out.println("entered age: "+age);    
