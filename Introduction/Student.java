@@ -14,6 +14,7 @@ class Student{
         System.out.println("enter the register number: ");
         long num =sc.nextLong();
         sc.close();
+        
         System.out.println("entered name: "+name);
         System.out.println("entered roll number: "+num);
         System.out.println("entered age: "+age);    
