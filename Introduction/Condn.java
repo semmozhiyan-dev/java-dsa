@@ -23,29 +23,12 @@ public class Condn {
             System.out.println("baby");
         }else if(age>3 && age<=12){
             System.out.println("child");
-        }else if(age>12 && age<=18){
+        }else if(age>13 && age<=18){
             System.out.println("teenager");
         }else if(age>19 && age<=60){
             System.out.println("adult");
         }else{
             System.out.println("old");
         }  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }    
 }
