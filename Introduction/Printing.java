@@ -7,6 +7,6 @@ public class Printing {
         System.out.println("age: "+age);
         System.out.println("salary: "+salary);
         System.out.printf("name: %s, age: %d, salary: $%.2f",name,age,salary);
-
+        
     }
 }
