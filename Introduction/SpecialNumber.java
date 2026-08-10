@@ -22,11 +22,6 @@ public class SpecialNumber {
                 System.out.println (i);
             }
         }
-        
-
-        
-        
-
     }
     
 }
