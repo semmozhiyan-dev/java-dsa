@@ -5,7 +5,6 @@ public class WhileLoop {
         int count=0;
         while(num>=n){
             count++;
-
             num=num/n;
         }
         System.out.println("Count: "+count);
