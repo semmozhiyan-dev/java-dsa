@@ -15,6 +15,5 @@ public class PrimeNumber {
                 System.out.println("eligible");
             }
         sc.close();
-    }
-    
+    }    
 }
