@@ -1,4 +1,4 @@
-//with returntype and without arguments
+//with returntype and with arguments
 public class MainMethod3 {
      public int addValues(int a,int b){
         int sum=a+b;
