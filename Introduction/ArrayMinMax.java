@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class ArrayMinMax {
+    //method to find minimum
     public static void Min(int arr[]){
-        int min=arr[0];
+        int min=arr[0];        
         for(int i=1;i<arr.length;i++){
             if(arr[i]<min){
                 min=arr[i];
@@ -9,6 +10,7 @@ public class ArrayMinMax {
         }
         System.out.println("Minimum value is: "+min);
     }
+    //method to find maximum
     public static void Max(int arr[]){
         int max=arr[0];
         for(int i=1;i<arr.length;i++){
@@ -28,7 +30,9 @@ public class ArrayMinMax {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
+        //method to find minimum
         Min(arr);
+        //method to find maximum
         Max(arr);
         sc.close();
 
