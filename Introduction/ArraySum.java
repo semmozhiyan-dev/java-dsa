@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class ArraySum {
     public static void printArray(String names[]){
+        System.out.println("Array elements are: ");
         for(int i=0;i<names.length;i++){
             System.out.println(names[i]);
         }
