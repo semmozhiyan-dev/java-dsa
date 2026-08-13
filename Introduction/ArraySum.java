@@ -1,4 +1,11 @@
+import java.util.Scanner;
 public class ArraySum {
+    public static void printArray(String names[]){
+        for(int i=0;i<names.length;i++){
+            System.out.println(names[i]);
+        }
+    }
+
     public static void main(String[] args){
         
         /*//type 1
@@ -15,12 +22,23 @@ public class ArraySum {
             */
 
         //type 2
-        int marks[]={89,69,87,45,86};
+        /*int marks[]={89,69,87,45,86};
         int len =marks.length;
         for(int i=0;i<marks.length;i++){
             System.out.println(marks[i]);
         }
+*/         
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the array Size: ");
+        int size=sc.nextInt();
+        String names[]=new String[size];
+        System.out.println("Enter array elements: ");
+        for(int i=0;i<size;i++){
+            names[i]=sc.next();
+        }
+        printArray(names);
 
+        
 
     }
     
