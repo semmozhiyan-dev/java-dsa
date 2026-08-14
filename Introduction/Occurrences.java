@@ -13,7 +13,7 @@ public class Occurrences {
                     count++;
                 }
               }
-            System.out.println("The Occurrences of " + arr[i] + " is: " + count);
+            System.out.println("The Occurrences of " + arr[i] + " -> " + count);
             visited[i]=true;
         }
 
