@@ -1,5 +1,3 @@
-
-
 import java.util.HashSet;
 public class HashSetIntro {
     public static void main(String[] args){
