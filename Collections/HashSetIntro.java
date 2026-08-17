@@ -1,5 +1,5 @@
 
-import java.net.SocketTimeoutException;
+
 import java.util.HashSet;
 public class HashSetIntro {
     public static void main(String[] args){
@@ -21,7 +21,12 @@ public class HashSetIntro {
         set.add(15);
         System.out.println("adding set" +set);
         System.out.println("is contains 15?" +set.contains(15));
-
-    }
+        set.remove(50);
+        System.out.println("After rmeoving the value  "+set);
+        for(int num: set){
+            System.out.println(num+ " ");
+        }   
+        set.clear();
+     }
     
 }
