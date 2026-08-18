@@ -22,6 +22,8 @@ public class StringConcat {
         System.out.println("without case sensitive: "+isSameCase);
         //to check a substring contains by the string
         System.out.println("<java> contains: "+str.contains("rahul"));
+        //to replace substring or  char
+        System.out.println("Replace pyhton: "+name.replace("java","python"));
 
     }
     
