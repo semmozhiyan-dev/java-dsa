@@ -15,6 +15,13 @@ public class RemoveSpaces{
 
     }
     System.out.println("After removing spaces: "+ newString);
+    //approach  3 reverse the string
+    String s="hello";
+    String rev="";
+    for(int i=s.length()-1;i>=0;i--){
+        rev+=s.charAt(i);           
+    }
+    System.out.println("After reversing the string: "+ rev);
 
 
 }
