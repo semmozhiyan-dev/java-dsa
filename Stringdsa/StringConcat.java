@@ -20,7 +20,9 @@ public class StringConcat {
         System.out.println("boolean :"+isSame);
         boolean isSameCase=str.equalsIgnoreCase("rahul");
         System.out.println("without case sensitive: "+isSameCase);
-        
+        //to check a substring contains by the string
+        System.out.println("<java> contains: "+str.contains("rahul"));
+
     }
     
 }
