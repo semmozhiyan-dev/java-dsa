@@ -8,7 +8,7 @@ public class HashMapIntro {
         map.put("house no", "40A");
         map.put("area", "saravanampatti");
         System.out.println("original map: " +map);
-
+        
         //put(key , updated_value)-> update element in hashmap
         map.put("house no", "50A");
         System.out.println("Area: "+map.get("area"));
