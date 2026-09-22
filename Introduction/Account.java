@@ -1,7 +1,8 @@
-public class Account {
+class Account {
+    //encapsulation
     String Account_user;
     long Account_Number;
-    double Balance;
+    private double Balance;
     
     Account(String Account_user,long Account_Number,double Balance){
         this.Account_user=Account_user;
@@ -10,11 +11,23 @@ public class Account {
             System.out.println("account holder name is:"+Account_user);
             System.out.println("account number is:"+Account_Number);
             System.out.println("account balance is:"+Balance);  
+        }    
+        public void setBalance(double Balance){
+            if(Balance<0){
+                System.out.println("Balance is invalid");
+                return ;
+            }
+            else{
+                this.Balance=Balance;
+            }
         }
-
-    
+        public double getBalance(){
+            return Balance;
+        }
     public static void main(String[] args){
         Account newAccount=new Account("sem",12345678,10000.00);
+        newAccount.setBalance(100000.00);
+        System.out.println(newAccount.getBalance());
 
 
     }    
