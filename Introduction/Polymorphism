@@ -1,0 +1,22 @@
+class Polymorphism{
+    int a;
+    int b;
+    int c;
+    void add(int a,int b){
+        System.out.println(a+b);
+    }
+    void add(int a,int b,int c){
+        System.out.println(a+b+c);
+
+    }
+    class Override{
+        @Override
+        void ride(){
+            System.out.println("overrided");
+        }
+    }
+    class Over1 extends Override{
+        @Override
+        
+    }
+}

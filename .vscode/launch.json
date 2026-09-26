@@ -6,11 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ternary",
+            "request": "launch",
+            "mainClass": "ternary",
+            "projectName": "java-dsa_bb066d0c"
+        },
+        {
+            "type": "java",
             "name": "multiplication",
             "request": "launch",
             "mainClass": "multiplication",
             "projectName": "java-dsa_bb066d0c",
-            "path":"Introduction/Multiplication.java"
+            "path": "Introduction/Multiplication.java"
         },
         {
             "type": "java",
